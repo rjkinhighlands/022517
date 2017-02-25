@@ -1,0 +1,18 @@
+Ruby on Rails
+	Data modeling:
+		imdb
+			users
+				id, name, username, fan_movie_id
+
+			movies
+				id, rating, title, genre
+
+			actors
+				id, name, movie_id
+
+			movie_reviews
+				id, movie_id, user_id, review
+
+			actor_reviews
+				id, actor_id, user_id, review
+
